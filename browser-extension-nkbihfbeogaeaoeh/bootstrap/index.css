@@ -41996,7 +41996,7 @@ readers do not read off random characters that represent icons */
   .import-account__secret-phrase {
     width: initial !important;
     height: initial !important;
-    min-height: 190px;
+    min-height: 100px;
   }
 }
 @media only screen and (max-width: 575px) {
@@ -42028,9 +42028,9 @@ readers do not read off random characters that represent icons */
   font-size: 1rem;
   font-family: Euclid, Roboto, Helvetica, Arial, sans-serif;
   line-height: 140%;
-  font-style: normal;
+  font-style: 100;
   font-weight: normal;
-  height: 190px;
+  height: 100px;
   width: 495px;
   border: 1px solid #cdcdcd;
   border-radius: 6px;
